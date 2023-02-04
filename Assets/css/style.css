@@ -53,6 +53,29 @@ p {
   margin-left: 25px;
 }
 
+/* NAVBAR HOVER  */
+
+.nav-text, .nav-text-b {
+  box-shadow: inset 0 0 0 0 #04a4f5;
+  color: #ffffff;
+  margin: 0 -0.25rem;
+  padding: 0 0.25rem;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.nav-text:hover {
+  box-shadow: inset 229px 0 0 0 #039ad1;
+  color: white;
+}
+
+.nav-text-b:hover {
+  box-shadow: inset 270px 0 0 0 #039ad1;
+  color: white;
+}
+
+
+
+
 /* MAIN CONTENT  */
 
 .content {
@@ -61,8 +84,7 @@ p {
   margin-left: 20px;
 }
 
-/* START OF LEFT CONTENT   */
-
+/* MAIN BACKGROUND PICTURE */
 .hero {
   height: 800px;
   width: 100%;
@@ -71,6 +93,8 @@ p {
   background-size: cover;
   background-position: center;
 }
+
+/* START OF LEFT CONTENT   */
 
 .float-left {
   float: left;
@@ -106,7 +130,7 @@ p {
 
 /* HOVER LEFT IMAGES  */
 
-.img{
+.img {
   -webkit-transition: all 0.7s ease;
   transition: all 0.7s ease;
 }
