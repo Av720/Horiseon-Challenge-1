@@ -82,6 +82,8 @@ p {
   margin-left: 20px;
 }
 
+/* MAIN IMAGE */
+
 #hero {
   height: 800px;
   width: 100%;
@@ -91,7 +93,6 @@ p {
   background-position: center;
 }
 
-/* MAIN IMAGE */
 
 
 /* START OF LEFT CONTENT   */ 
@@ -101,7 +102,7 @@ p {
   margin-right: 25px;
 }
 
-.search-engine-optimization {
+#search-engine-optimization {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -142,7 +143,7 @@ p {
 
 /* LEFT CONTENT IMG */
 
-.search-engine-optimization img {
+#search-engine-optimization img {
   max-height: 200px;
 }
 
@@ -262,7 +263,9 @@ p {
   width: 80%;
 }
 
-
+.navbar {
+  font-size: 1rem;
+}
 
 
 }
