@@ -23,12 +23,12 @@ p {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  background-color: #2a607c;
-  color: #ffffff;
-}
+    background-color: #2a607c;
+    color: #ffffff;
+  }
 
-.header h1 {
-  display: inline-block;
+  .header h1 {
+    display: inline-block;
   font-size: 48px;
 }
 
@@ -55,7 +55,8 @@ p {
 
 /* NAVBAR HOVER  */
 
-.nav-text, .nav-text-b {
+.nav-text,
+.nav-text-b {
   box-shadow: inset 0 0 0 0 #04a4f5;
   color: #ffffff;
   margin: 0 -0.25rem;
@@ -73,9 +74,6 @@ p {
   color: white;
 }
 
-
-
-
 /* MAIN CONTENT  */
 
 .content {
@@ -84,8 +82,7 @@ p {
   margin-left: 20px;
 }
 
-/* MAIN BACKGROUND PICTURE */
-.hero {
+#hero {
   height: 800px;
   width: 100%;
   margin-bottom: 25px;
@@ -94,7 +91,10 @@ p {
   background-position: center;
 }
 
-/* START OF LEFT CONTENT   */
+/* MAIN IMAGE */
+
+
+/* START OF LEFT CONTENT   */ 
 
 .float-left {
   float: left;
@@ -253,4 +253,16 @@ p {
 
 .footer h2 {
   font-size: 20px;
+}
+
+
+@media screen and (max-width: 700px) {
+
+#hero {
+  width: 80%;
+}
+
+
+
+
 }
