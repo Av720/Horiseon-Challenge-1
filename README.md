@@ -65,7 +65,7 @@ THEN I find accessible alt attributes (done)
 WHEN I view the heading attributes
 THEN they fall in sequential order (check)
 WHEN I view the title element
-THEN I find a concise, descriptive title
+THEN I find a concise, descriptive title (done)
 ```
 
 ## Mock-Up
